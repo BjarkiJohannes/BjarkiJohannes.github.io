@@ -1,13 +1,6 @@
-body {
-  background-color: lightblue;
-  /* margin-left: 10%;
-  margin-right: 10%; */
-  margin: 5% 5% 5% 5%;
-}
-  
 h1 {
   color: navy;
-  margin-left: 20px;
+  /* margin-left: ; */
 }
 
 .intro {
@@ -15,5 +8,27 @@ h1 {
 }
 
 .mainP {
+  margin-left: 18%;
+  margin-right: 80px;
   border: 1px solid black;
+}
+
+.Link {
+  text-align: center;
+}
+
+.Elvis {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 100px;
+  margin-right: 10%;
+  margin-left: 10%;
+  /* margin: 5% 5% 5% 5%; */
+}
+
+@media(max-width:960px){
+  .container{
+    padding-right:3rem;
+    padding-left:3rem;
+  }
 }
