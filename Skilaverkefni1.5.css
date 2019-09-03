@@ -1,0 +1,99 @@
+body     {
+
+  border: red;
+  width: 50em;
+  }
+
+  .intro h1{
+    
+    color: #FF00FF;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+
+  .intro2 h1{
+    color: 	#FF4500;
+  }
+
+  .intro2{
+    text-align: center;
+  }
+
+  .Imagine{
+    color: blue;
+  }
+
+  .Imagine2{
+    color:blue;
+  }
+
+  .poem1{
+    color:#00FF7F;
+  }
+
+  .nams1{
+    color: 	#7B68EE;
+  }
+
+  .nams2{
+    color: 	#7B68EE;
+  }
+
+  .nams3{
+    color: 	#7B68EE;
+  }
+
+  .nams4{
+    color: 	#7B68EE;
+  }
+
+  ol{
+      text-align: center;
+      list-style-position: inside;
+    }
+
+  .mainP h1{
+    color: #FF4500;
+  }
+  
+  .mainP {
+    text-align:center;
+  }
+
+  .Link {
+    text-align: center;
+  }
+  
+  .Elvis h1{
+    color: 	#DDA0DD;   
+  }
+
+  .word1{
+    color: 	#40E0D0;
+  }
+
+  .word2{
+    color:#FF6347;
+  }
+
+  .word3{
+    color:#40E0D0;
+  }
+
+  .word4{
+    color:#40E0D0;
+  }
+
+  .word5{
+    color:#FF6347;
+  }
+
+  .Elvis {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 100px;
+    margin-right: 10%;
+    margin-left: 10%; 
+  }
