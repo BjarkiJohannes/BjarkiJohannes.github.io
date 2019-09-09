@@ -2,7 +2,7 @@
 name= input ("Hvað er nafnið þitt? ")
 print ("halló " + name +"!")
 subject= str(input("Hvað er uppáldsfagið þitt í skólanum " + name + "?"))
-print ("Velkominn í áfangann" , uppáldsfagið , " Þetta verður skemmtileg önn hjá okkur " + name + ".")
+print ("Velkominn í áfangann" , subject , " Þetta verður skemmtileg önn hjá okkur " + name + ".")
 
 #Liður 2. Deilun
 print ("Gefðu mig tvær tölur og ég skal deila þá með 5.5")
