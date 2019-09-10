@@ -37,7 +37,7 @@ print()
 
 #Lidur 3, Forritið spyr um númer mánaðar. Forritið skrifar síðan hvort nú sé vetur, sumar, vor eða haust.
 
-month = input("Sláðu inn númer mánuð.): ")
+month = input("Sláðu inn númer mánuð.: ")
 
 if month in ('1', '2', '3'):
 	season = 'Nú er daginn tekið að lengja.'
@@ -69,8 +69,8 @@ print (season)
 
 print()
 #Lidur 4, Spurt er um kyn og tvær tölur
-name = input("hvað er nafnið þitt?")
-gender = input("hvort ertu kk eða kvk?")
+name = input("hvað er nafnið þitt?: ")
+gender = input("hvort ertu kk eða kvk?: ")
 
 if gender.lower() == 'kk':
     print("Blessaður "+name)
@@ -78,5 +78,14 @@ elif gender.lower() == 'kvk':
     print("Blessuð "+name)
 else:
     print('Blessaður eða Blessuð ég veit ekki hvors kyns þú ert')
+print()
+
+print("gefðu mig tvær tölur og ég mun reikna út hvort mismunur talnanna sé meiri eða minni en 100. ") 
+number1 = input("Gefðu mig tölu: ")
+number2 = input("Gefðu mig aðra tölu: ")
+if number1>number2: 
+    print("tala1>tala2" , number1-number2, "Tala 1 er stærri")
+else number2>number1:
+      print("tala2>tala1" , number1-number2, "Tala 2 er stærri")
 
 
