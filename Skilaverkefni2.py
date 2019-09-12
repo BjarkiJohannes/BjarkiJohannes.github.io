@@ -24,14 +24,14 @@ print()
 
 #Liður 2, Umbreytir tölu í sentimetrar eða tommur
 print("Gefðu mig tölu og ég skal breyta það í tommur eða sentimetra")
-print()
+
 number = float(input(" Sláðu inn tölu: "))
 choice = input(str(" Ef þú vilt umbreyta frá sentimetra í tommu stimplaðu 'A' \n Ef þú vilt umbreyta frá tommum í sentimetra stimplaðu 'B': "))
-if choice in ("A" or "a"):
-    print(" Svarið þitt er" , number*2.54, "tommur")
-    
+if choice in ("A" , "a"):
+    print(" Svarið þitt er" , number/2.54, "tommur")
 else:
-    print(" Svarið þitt er" , number/2.54, "sentimetrar")
+    print(" Svarið þitt er" , number*2.54, "sentimetrar")
+
 
 print()
 
@@ -80,12 +80,38 @@ else:
     print('Blessaður eða Blessuð ég veit ekki hvors kyns þú ert')
 print()
 
-print("gefðu mig tvær tölur og ég mun reikna út hvort mismunur talnanna sé meiri eða minni en 100. ") 
-number1 = input("Gefðu mig tölu: ")
-number2 = input("Gefðu mig aðra tölu: ")
-if number1>number2: 
-    print("tala1>tala2" , number1-number2, "Tala 1 er stærri")
-else number2>number1:
-      print("tala2>tala1" , number1-number2, "Tala 2 er stærri")
+print("gefðu mig tvær tölur og ég mun reikna út hvort mismunur talnanna sé meiri eða minni en 100 og hvor er stærri. ") 
+print()
+x = int(input("Sláðu inn tölu: "))
+y = int(input("Sláðu inn tölu: "))
+if x < y:
+    print (x, "er minni en", y)
+    x = y-x
+    print ("og mismunur er" , x)
+elif x > y:
+    print (x, "er stærri en", y)
+    Y = x-y
+    print ("og mismunur er:", y)
+else:
+    print (x, "og", y, "eru jafnstór")
+print()
+#Lidur 5, Forritið biður notanda um tölu sem er lægri en 0 eða hærri en 10. 
+num = (input("Sláðu inn tölu sem er lægri en 0 eða hærri en 10: "))
+if num in ('0', '1', '2', '3', '4,', '5', '6', '7', '8', '9', '10'):
+    num2 = 'Þessi tala er ekki lægri en núll eða hærri en 10'
+    
+else:
+       num2 = 'Vel gert snillingur!'
+
+if (num == '10') :
+    num2 = 'Þessi tala er ekki lægri en núll eða hærri en 10, fíflið þitt!'
+
+print (num2)
+
+print()
+
+choice = input(str(" Stimplaðu Enter ef þú vilt hætta 'ENTER': "))
+if choice in ("ENTER"):
+    exit()
 
 
