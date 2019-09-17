@@ -1,0 +1,42 @@
+*{
+box-sizing: border-box
+}
+
+body{
+    margin: 0 auto;
+}
+.Box1{
+width: 1400px;
+border: 2px solid green;
+padding: 5px;
+margin: 20px;
+}
+
+.Box2 h1{
+    color: red;
+}
+.Box2{
+    width: 1310px;
+    border: 1px solid green;
+    outline: 5px solid red;
+    outline-offset: 40px;
+    padding:5px;
+    margin: 100px 50px 100px 65px;
+}
+
+.Box3{
+    width: 1310px;
+    border: 3px dashed blue;
+    outline: 5px solid red;
+    outline-offset: 40px;
+    padding: 20px;
+    margin: 150px 70px 200px 65px;
+}
+
+.red{
+    color:red;
+}
+
+.blue{
+    color:blue;
+}
