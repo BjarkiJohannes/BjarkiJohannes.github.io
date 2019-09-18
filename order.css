@@ -38,7 +38,7 @@ footer p {
 
 .row {
 	display:flex;
-	flex-flow: row;
+	flex-flow: row-reverse;
 	width: 90%;
 	height:100px;
 	border-bottom: 1px solid black;
