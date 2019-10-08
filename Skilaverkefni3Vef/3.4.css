@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700px;
+    letter-spacing: 50%;
+}
+
+body,html {
+    margin: 0;
+    height: 50em;
+  }
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    grid-template-rows: 25% 10 auto 10%;
+    grid-template-areas:
+    " header header header "
+    " nav nav nav "
+    " aside main article "
+    " footer footer footer ";
+  }
+
+  header {
+    margin:0;
+    padding:0;
+    grid-area: header;
+  }
+  header ul{
+    margin:0;
+    padding:0;
+  }
+  
+  header{
+    height: 0em;
+    padding: 0em;
+    border: 1px solid;
+    border-bottom:0;
+    width: 0 auto;
+    }
+
+  #show_bg_2 {
+
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('https://previews.123rf.com/images/tbralnina/tbralnina1902/tbralnina190200090/117404694-keto-ketogenic-diet-low-carb-healthy-food-background-top-view-.jpg');
+      
+    width: 100em;
+    height: 799px;
+    margin: 0px;
+    background-size: cover;
+    }
+    
+@keyframes bganimation{
+
+  0%{
+    background-position: 0% 50%;
+
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+
+  }
+
+
+}
+
+
+  nav {
+    grid-area: nav;
+    border: solid black;
+    border-width: 1px 1px 1px 1px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  nav li{
+    font-size: 40px;
+    
+
+  }
+  
+  aside {
+    grid-area: aside;
+    border: solid black;
+    border-width: 0px 1px 0px 1px;
+    font-size: 20px;
+    color:pink;
+  }
+  article {
+    grid-area: article;
+    border: solid black;
+    border-width: 0px 1px 0px 1px;
+    font-size: 20px;
+    color: lightsalmon;
+  }
+  
+  main {
+    grid-area: main;
+    font-size: 20px;
+    color: lightskyblue;
+  }
+
+  blockquote{
+    border: 10px solid purple;
+    padding: 10px;
+    border-radius: 25px;
+    
+  }
+  
+  
+  footer {
+    grid-area: footer;
+    border: solid black;
+    border-width: 1px 1px 1px 1px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+  
+  p, h4 {
+    margin: 10px;
+    
+  }
+  
+  nav ul, footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none;
+    font-size: 40px;
+    
+  }
+  
+  li a {
+    color: lightgreen;
+    padding: 0;
+    text-decoration: none;
+    
+  }
+  
+  
