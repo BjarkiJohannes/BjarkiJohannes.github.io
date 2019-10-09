@@ -3,6 +3,7 @@
     font-family: 'Amatic SC', cursive;
     font-weight: 700px;
     letter-spacing: 50%;
+    overflow: hidden;
 }
 
 body,html {
