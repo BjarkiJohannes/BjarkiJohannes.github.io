@@ -3,12 +3,12 @@
     font-family: 'Amatic SC', cursive;
     font-weight: 700px;
     letter-spacing: 50%;
-    overflow: hidden;
 }
 
 body,html {
     margin: 0;
     height: 50em;
+    overflow: hidden;
   }
 
 body {
