@@ -33,6 +33,10 @@ footer p {
 	height: 5em;
 	text-align: center;
 	padding-top: 20px;
+	text-content:center;
+	align-items:center;
+	display:flex;
+	
 
 }
 
