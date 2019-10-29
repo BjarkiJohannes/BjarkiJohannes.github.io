@@ -1,0 +1,117 @@
+* { box-sizing: border-box; }
+
+body,html {
+    height: 100vh;
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+    background: rgb(18,57,170);
+background: linear-gradient(98deg, rgba(18,57,170,1) 0%, rgba(22,24,97,1) 49%, rgba(18,39,78,1) 78%, rgba(7,24,75,1) 100%);
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {   
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+
+a:hover{
+    background-color: yellowgreen;
+}
+a:visited{
+    background-color: tomato;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0fr;   
+    height:30%; 
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0fr;
+    color:rgb(184, 183, 183);
+    
+}
+
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.gap-4 {
+    grid-gap: 4em
+}
+
+.litur{  
+  padding:20px;
+  background-image: linear-gradient( #F5D27F, #F5F1D3);
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+  color:rgb(184, 183, 183);
+  text-decoration: none;
+}
+
+header{
+  
+}
+
+header h1{
+    padding-top: 80px;
+    font-family: 'Monoton', cursive;
+    color: white;
+}
+
+.verkefni{
+  margin-left: 18em;
+  color:rgb(207, 142, 1);
+  padding-bottom: 80px;
+  font-family: 'Monoton', cursive;
+}
+
+main h1{
+  margin:0;
+  font-family: 'Monoton', cursive;
+}
+
+footer{  
+  
+}
+
+blockquote{
+  padding-right:10px;
+  padding-left: 40px;
+  position:relative;
+  bottom: 3px;
+  left: 40px;
+  margin-bottom: 20px;
+  background-color:rgba(255, 255, 255, 0.3);
+}
+
+.topnav{
+  margin-left: 13em;
+}
+
+header a{
+  margin:5px;
+}
+
+dd{
+  margin-left:20px;
+}
+
+.copy{
+    color: rgba(201, 201, 201, 0.87);
+    text-align: center;
+}
