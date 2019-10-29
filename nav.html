@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+  <head>
+    <title>JS-less navigation</title>
+    <style>
+      html, body {
+        width:100%;
+        height:100%;
+        margin:0px;
+        padding:0px;
+        font-size: 16px;
+        font-family: Helvetica;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      *:active {
+        outline:none;
+      }
+      
+      #content {
+        display:grid;
+        grid-template-columns: 150px auto;
+        height:100%;
+      }
+
+      #nav {
+        width: 100%;
+        height: 50px;
+        text-align:center;
+        height:100%;
+        background-color:#ffcc88;
+
+      }
+      
+      #nav a {
+        line-height:50px;
+        text-decoration:none;
+        color: black;
+        font-variant:small-caps;
+        font-size: 32px;
+        display: block;
+      }
+
+      #nav a:hover {
+        background-color: rgba(0,0,0,0.1)
+      }
+
+      main {
+        display:inline-block;
+        margin:0px;
+        height:100%;
+      }
+      
+      .page {
+        display: none;
+        background-color:#ffeecc;
+        padding-left:20px;
+        padding-top:20px;
+        margin:0px;
+        height: 100%;
+      }
+      
+      .page h1 {
+        margin:0px;
+      }
+      
+      .default {
+        display:block;
+      }
+      
+      :target {
+        display:block;
+      }
+      
+      :target ~ .default {
+        display:none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <nav id="nav">
+        <a href="#page1">Page 1</a>
+        <a href="#page2">Page 2</a>
+        <a href="#page3">Page 3</a>
+        <a href="#page4">Page 4</a>
+        <a href="#page5">Page 5</a>
+      </nav>
+      <main>
+        <div id="page2" class="page">
+          <h1>Page 2</h1>
+          <p>And this is the second page!</p>
+        </div>
+        <div id="page3" class="page">
+          <h1>Page 3</h1>
+          <p>Okay... This is the third page...</p>
+        </div>
+        <div id="page4" class="page">
+          <h1>Page 4</h1>
+          <p>Uhh... Fourth page?</p>
+        </div>
+        <div id="page5" class="page">
+          <h1>Page 5</h1>
+          <p>Still here? Fine, fifth page...</p>
+        </div>
+        <div id="page1" class="page default">
+          <h1>Page 1</h1>
+          <p>This is the first page!</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
